@@ -3202,17 +3202,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^13.0.6":
-  version: 13.0.6
-  resolution: "glob@npm:13.0.6"
-  dependencies:
-    minimatch: "npm:^10.2.2"
-    minipass: "npm:^7.1.3"
-    path-scurry: "npm:^2.0.2"
-  checksum: 10c0/269c236f11a9b50357fe7a8c6aadac667e01deb5242b19c84975628f05f4438d8ee1354bb62c5d6c10f37fd59911b54d7799730633a2786660d8c69f1d18120a
-  languageName: node
-  linkType: hard
-
 "glob@npm:^7.1.3, glob@npm:^7.1.4":
   version: 7.2.3
   resolution: "glob@npm:7.2.3"
@@ -3257,18 +3246,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"goreleaser-npm-publisher@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "goreleaser-npm-publisher@npm:1.6.0"
+"goreleaser-npm-publisher@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "goreleaser-npm-publisher@npm:1.7.0"
   dependencies:
     ajv: "npm:^8.20.0"
-    glob: "npm:^13.0.6"
-    lodash: "npm:^4.18.1"
-    picocolors: "npm:^1.1.1"
-    yargs: "npm:^18.1.0"
+    yargs: "npm:^18.2.0"
   bin:
-    goreleaser-npm-publisher: dist/cli.cjs
-  checksum: 10c0/eb23a126b4b4d4f47a868ec3a2992f515fb5f11ad282a9602150b17044e1e98bb7a4bf185ae496e1c7cc4441b06cd1c9e203ed4f022cfc01c2fe263ee4e71f6f
+    goreleaser-npm-publisher: dist/bin.cjs
+  checksum: 10c0/1026c1e2faae894e44474d0e3fb1a06741cc1d08c212545885946e477b76b98835333daf91048d69e1ca98772aad39ab35dc6ed0eeb9d3480345d526d5ed880e
   languageName: node
   linkType: hard
 
@@ -4283,13 +4269,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.18.1":
-  version: 4.18.1
-  resolution: "lodash@npm:4.18.1"
-  checksum: 10c0/757228fc68805c59789e82185135cf85f05d0b2d3d54631d680ca79ec21944ec8314d4533639a14b8bcfbd97a517e78960933041a5af17ecb693ec6eecb99a27
-  languageName: node
-  linkType: hard
-
 "loglevel-colored-level-prefix@npm:^1.0.0":
   version: 1.0.0
   resolution: "loglevel-colored-level-prefix@npm:1.0.0"
@@ -4311,13 +4290,6 @@ __metadata:
   version: 10.4.3
   resolution: "lru-cache@npm:10.4.3"
   checksum: 10c0/ebd04fbca961e6c1d6c0af3799adcc966a1babe798f685bb84e6599266599cd95d94630b10262f5424539bc4640107e8a33aa28585374abf561d30d16f4b39fb
-  languageName: node
-  linkType: hard
-
-"lru-cache@npm:^11.0.0":
-  version: 11.0.1
-  resolution: "lru-cache@npm:11.0.1"
-  checksum: 10c0/8bad6603dc67eb5b03520fba05bce5df6473dbba58ac4c6067ed088d29225a0a04416bb1462acd8c1f819d1fbf37920446a1c36bafd9c384bcc54cee0d3b697a
   languageName: node
   linkType: hard
 
@@ -4531,13 +4503,6 @@ __metadata:
   version: 7.1.2
   resolution: "minipass@npm:7.1.2"
   checksum: 10c0/b0fd20bb9fb56e5fa9a8bfac539e8915ae07430a619e4b86ff71f5fc757ef3924b23b2c4230393af1eda647ed3d75739e4e0acb250a6b1eb277cf7f8fe449557
-  languageName: node
-  linkType: hard
-
-"minipass@npm:^7.1.3":
-  version: 7.1.3
-  resolution: "minipass@npm:7.1.3"
-  checksum: 10c0/539da88daca16533211ea5a9ee98dc62ff5742f531f54640dd34429e621955e91cc280a91a776026264b7f9f6735947629f920944e9c1558369e8bf22eb33fbb
   languageName: node
   linkType: hard
 
@@ -4805,16 +4770,6 @@ __metadata:
     lru-cache: "npm:^10.2.0"
     minipass: "npm:^5.0.0 || ^6.0.2 || ^7.0.0"
   checksum: 10c0/32a13711a2a505616ae1cc1b5076801e453e7aae6ac40ab55b388bb91b9d0547a52f5aaceff710ea400205f18691120d4431e520afbe4266b836fadede15872d
-  languageName: node
-  linkType: hard
-
-"path-scurry@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "path-scurry@npm:2.0.2"
-  dependencies:
-    lru-cache: "npm:^11.0.0"
-    minipass: "npm:^7.1.2"
-  checksum: 10c0/b35ad37cf6557a87fd057121ce2be7695380c9138d93e87ae928609da259ea0a170fac6f3ef1eb3ece8a068e8b7f2f3adf5bb2374cf4d4a57fe484954fcc9482
   languageName: node
   linkType: hard
 
@@ -5612,7 +5567,7 @@ __metadata:
     eslint-plugin-jest: "npm:^29.16.1"
     eslint-plugin-jsonc: "npm:^2.21.1"
     eslint-plugin-prettier: "npm:^5.5.6"
-    goreleaser-npm-publisher: "npm:^1.6.0"
+    goreleaser-npm-publisher: "npm:^1.7.0"
     jest: "npm:^30.4.2"
     make-coverage-badge: "npm:^1.2.0"
     prettier: "npm:^3.9.6"
@@ -5955,9 +5910,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^18.1.0":
-  version: 18.1.0
-  resolution: "yargs@npm:18.1.0"
+"yargs@npm:^18.2.0":
+  version: 18.2.0
+  resolution: "yargs@npm:18.2.0"
   dependencies:
     cliui: "npm:^9.0.1"
     escalade: "npm:^3.1.1"
@@ -5965,7 +5920,7 @@ __metadata:
     string-width: "npm:^8.2.1"
     y18n: "npm:^5.0.5"
     yargs-parser: "npm:^22.0.0"
-  checksum: 10c0/86052bbed90a9aaaaf1eabe004f47c7420e1b7f8d314170cfb0ad4721f518ec2fb7ba5a6daa20708b1595aba257f1554b2d5b3f5606356f86aa9dae18de0bec5
+  checksum: 10c0/7419338c3c00f9143ec6b6ab168335061c6f5342d161642aec23ff119e28cac1c417e0eca1d7dc82fd084f07207cc5d34c7d8315f605c0e3dbf12c350e405f3f
   languageName: node
   linkType: hard
 
